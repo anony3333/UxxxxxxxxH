@@ -5,9 +5,9 @@ UH-GPU: UHStencil on GPU test cases, dsls describing stencil computation and pro
 
 UH-SW: UHStencil on SW test cases, dsls describing stencil computation and program entry and drivers on SW platform.
 
-compare/openearth: UHStencil compared with openearth on GPU. Including mlir files.
+compare/openearth: UHStencil compared with openearth on GPU. Including `mlir` files.
 
-compare/MSC: UHStencil compared with MSC on SW platform. Including a cc file decribing all stencil computations and a Makefile.
+compare/MSC: UHStencil compared with MSC on SW platform. Including a `cc` file decribing all stencil computations and a Makefile.
 
 
 scripts/evaluation_scripts_GPU: 
@@ -21,6 +21,13 @@ scripts/figure_scripts: Drawing Script
 
 
 ## UHStencil on GPU
+1. Run test_default.py. It will run fixed tests for each case. The result will in `${casename}_specific.csv`
+
+2. Run test_all.py. It will automaticly generate GPU side code and run the code. The result will be in `${casename}.csv`
+
+3. Run wash.py to delete unlegal data in `csv` file.
+
+4. Run collect.py to get fastest kernel and its parameters.
 
 
 
@@ -43,4 +50,9 @@ Connect Sunway and combine the kernel code with the main function stencil_ 3d7pt
 
 3. Run run_on_sunway.py to run all test cases in the directory
 
-4. Run get_all_cases.py to collect all results in the directory.
+4. Run get_all_cases.py to collect all results in the directory and you can find the best result.
+
+## Reproduce Our Result
+Run draw_ablation.py to draw our ablation test figure.
+
+Collect all expriment result and write them in data.xlsx. Then run performance_merge.py to draw Figure x.
