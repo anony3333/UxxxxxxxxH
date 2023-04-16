@@ -1,0 +1,46 @@
+# Artifact
+
+## Code Structure
+UH-GPU: UHStencil on GPU test cases, dsls describing stencil computation and program entry
+
+UH-SW: UHStencil on SW test cases, dsls describing stencil computation and program entry and drivers on SW platform.
+
+compare/openearth: UHStencil compared with openearth on GPU. Including mlir files.
+
+compare/MSC: UHStencil compared with MSC on SW platform. Including a cc file decribing all stencil computations and a Makefile.
+
+
+scripts/evaluation_scripts_GPU: 
+Run UH-Stencil on GPU. Some cases are fixed and the other cases are auto-generated.
+
+scripts/evaluation_scripts_SW: All cases are auto-generated.
+
+scripts/compare: Run MSC and openearth.
+
+scripts/figure_scripts: Drawing Script
+
+
+## UHStencil on GPU
+
+
+
+## UHStencil on SW
+
+1. Generate Sunway side code
+
+```bash
+cd benchmarks/3d7pt_star/sw
+python tune_sw.py
+```
+
+Generate multiple cases based on tuning parameters, with the following files in each case: kernelstense_ 3d7pt_star.sw0_slave.c kernelstencil_3d7pt_star.sw_master.c
+Alternatively, set parameters based on experience and execute bash/run_SW.sh generates a single case
+
+2. Upload the Sunway code to Sunway Supercomputer
+
+Connect Sunway and combine the kernel code with the main function stencil_ 3d7pt_Drive.serial.c to the/home/export/online3/ces/jzh directory
+(First, download the code from the laboratory server to the local location, and then upload it to Sunway)
+
+3. Run run_on_sunway.py to run all test cases in the directory
+
+4. Run get_all_cases.py to collect all results in the directory.
