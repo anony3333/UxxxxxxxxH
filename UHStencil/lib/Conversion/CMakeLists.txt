@@ -1,0 +1,7 @@
+add_subdirectory(StencilToSW)
+add_subdirectory(StencilToStandard)
+# add_subdirectory(LLVMEmitCAttr)
+# add_subdirectory(StencilToVector)
+add_subdirectory(UHAffineToParallel)
+add_subdirectory(LoopsToGPU)
+add_subdirectory(StandardToSW)

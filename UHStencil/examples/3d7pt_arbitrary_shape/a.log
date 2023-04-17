@@ -1,0 +1,1743 @@
+========= CUDA-MEMCHECK
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (7,0,0) in block (7,0,0)
+=========     Address 0x000013c0 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (6,0,0) in block (7,0,0)
+=========     Address 0x00001380 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (5,0,0) in block (7,0,0)
+=========     Address 0x00001340 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (4,0,0) in block (7,0,0)
+=========     Address 0x00001300 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (3,0,0) in block (7,0,0)
+=========     Address 0x000012c0 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (2,0,0) in block (7,0,0)
+=========     Address 0x00001280 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (1,0,0) in block (7,0,0)
+=========     Address 0x00001240 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (0,0,0) in block (7,0,0)
+=========     Address 0x00001200 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (7,0,0) in block (6,0,0)
+=========     Address 0x000011c0 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (6,0,0) in block (6,0,0)
+=========     Address 0x00001180 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (5,0,0) in block (6,0,0)
+=========     Address 0x00001140 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (4,0,0) in block (6,0,0)
+=========     Address 0x00001100 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (3,0,0) in block (6,0,0)
+=========     Address 0x000010c0 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (2,0,0) in block (6,0,0)
+=========     Address 0x00001080 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (1,0,0) in block (6,0,0)
+=========     Address 0x00001040 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Invalid __shared__ read of size 8
+=========     at 0x00000ab0 in stencil_3d7pt_kernel
+=========     by thread (0,0,0) in block (6,0,0)
+=========     Address 0x00001000 is out of bounds
+=========     Device Frame:stencil_3d7pt_kernel (stencil_3d7pt_kernel : 0xab0)
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x2b8) [0x1e5cc8]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x205b]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuModuleLoadData.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleLoadData + 0x1ae) [0x25a38e]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleLoad + 0x47) [0x1057f7]
+=========     Host Frame:./a.out [0x1cd8]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleGetFunction.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleGetFunction + 0x1c6) [0x259bc6]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleGetFunction + 0x42) [0x1059f6]
+=========     Host Frame:./a.out [0x1cea]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_LAUNCH_FAILED (error 719) due to "unspecified launch failure" on CUDA API call to cuStreamCreate.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamCreate + 0x1bf) [0x24bb8f]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamCreate + 0x41) [0x105c67]
+=========     Host Frame:./a.out [0x1cf4]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuLaunchKernel.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuLaunchKernel + 0x24a) [0x1e5c5a]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuLaunchKernel + 0xa2) [0x105b58]
+=========     Host Frame:./a.out [0x1ef6]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamSynchronize + 0x22b) [0x1e631b]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamSynchronize + 0x2b) [0x105e4f]
+=========     Host Frame:./a.out [0x1f02]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139Initializing data...
+SPE elapsed Time: 340.401000 (ms)
+mpe computing
+MPE elapsed Time: 0.102000 (ms)
+Verify Failed
+]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuStreamDestroy_v2.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuStreamDestroy_v2 + 0x1b9) [0x249599]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuStreamDestroy + 0x2b) [0x105d67]
+=========     Host Frame:./a.out [0x1f0a]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= Program hit CUDA_ERROR_INVALID_HANDLE (error 400) due to "invalid resource handle" on CUDA API call to cuModuleUnload.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/lib/x86_64-linux-gnu/libcuda.so.1 (cuModuleUnload + 0x185) [0x259d95]
+=========     Host Frame:/home/jzh/mlir_stencil/llvm-project/build/lib/libmlir_cuda_runtime.so.13 (mgpuModuleUnload + 0x2b) [0x1058f7]
+=========     Host Frame:./a.out [0x1f14]
+=========     Host Frame:./a.out [0x20c5]
+=========     Host Frame:./a.out [0x2139]
+=========     Host Frame:./a.out [0x1bed]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xf3) [0x270b3]
+=========     Host Frame:./a.out [0x114e]
+=========
+========= ERROR SUMMARY: 152 errors

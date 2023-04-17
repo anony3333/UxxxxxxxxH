@@ -1,0 +1,1 @@
+<unknown>:0: error: cuLinkComplete(linkState, &cubinData, &cubinSize) failed with error code unknown error[error   : Entry function 'stencil_3d7pt_kernel' uses too much shared data (0x40000 bytes, 0xc000 max)]
