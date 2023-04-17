@@ -42,8 +42,8 @@ See UHStencil/README.md.
 1. Generate Sunway side code
 
 ```bash
-cd benchmarks/3d7pt_star/sw
-python tune_sw.py
+cd UH-SW
+for i in `ls`; do cd $i && python3 tune_sw.py && cd -; done
 ```
 
 Generate multiple cases based on tuning parameters, with the following files in each case: kernelstense_ 3d7pt_star.sw0_slave.c kernelstencil_3d7pt_star.sw_master.c
@@ -65,6 +65,14 @@ cp scripts_for_compare/openearth/* compare/openearth -r
 cd compare/openearth 
 python3 test.py
 
+```
+
+## Compare UHStencil with MSC
+```
+cp scripts_for_compare/MSC/* compare/MSC
+cd compare/openearth 
+make
+python3 MSC-test.py
 ```
 
 ## Reproduce Our Result
