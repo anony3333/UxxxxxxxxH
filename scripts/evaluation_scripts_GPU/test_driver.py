@@ -6,6 +6,7 @@ import subprocess
 import time
 
 option_set = set()
+output_csv = "duration.csv"
 # 获取环境变量，如果没有则返回1000
 TEST_NUM = int(os.getenv("TEST_NUM", 1000))
 print("TEST_NUM: ", TEST_NUM)
@@ -13,8 +14,6 @@ print("TEST_NUM: ", TEST_NUM)
 order = 4
 MM2d = NN2d = 8192
 MM3d = NN3d = QQ3d = 512
-
-llvmPath_lib = "/home/jzh/mlir_stencil/llvm-project/build/lib"
 
 def CALL(cmd):
     ret = subprocess.call(["bash", "-c", cmd])
@@ -103,7 +102,7 @@ def run_2d(configVector, dsl, cnt):
     innerTile, gridSize, blockSize, useShm = configVector
 
     ## write paras
-    with open("duration_shm.csv", 'a') as csv:
+    with open(f"{output_csv}.csv", 'a') as csv:
         csv.write(f"{gridSize[0]},{gridSize[1]},")
         csv.write(f"{blockSize[0]},{blockSize[1]},")
         csv.write(f"{innerTile[0]},{innerTile[1]},")
@@ -142,7 +141,7 @@ def run_2d(configVector, dsl, cnt):
         cmd = "clang -c -O3 -o tmp.o tmp.s"
         print(cmd)
         CALL(cmd)
-        cmd = f"nvcc -g -ccbin clang {dsl.split('_')[1]}_main.cpp tmp.o -L{llvmPath_lib} \
+        cmd = f"nvcc -g -ccbin clang {dsl.split('_')[1]}_main.cpp tmp.o  \
             -lmlir_cuda_runtime -lcudart -lcuda"
         print(cmd)
         CALL(cmd)
@@ -153,22 +152,22 @@ def run_2d(configVector, dsl, cnt):
         # cut -d\" -f 24    切下按"分隔的第24段，即duration
         # sed 's/,//g'      去除duration字段的逗号
         # cmd = f"CUDA_VISIBLE_DEVICES={cnt%2} ncu --csv --launch-skip=3 --metrics duration ./a.out | \
-        #     grep -P avg | cut -d\\\" -f 24 | sed 's/,//g' >> duration_shm.csv"
+        #     grep -P avg | cut -d\\\" -f 24 | sed 's/,//g' >> {output_csv}.csv"
         kernel_name = dsl[:dsl.rindex("_")] + "_kernel" 
-        cmd = f"CUDA_VISIBLE_DEVICES=1 nsys nvprof ./a.out | grep {kernel_name} | awk '{{print $4}}' | sed 's/,//g' >> duration_shm.csv"
+        cmd = f"CUDA_VISIBLE_DEVICES=1 nsys nvprof ./a.out | grep {kernel_name} | awk '{{print $4}}' | sed 's/,//g' >> {output_csv}.csv"
         print(cmd)
         CALL(cmd)
     except KeyboardInterrupt as e:
         raise e
     except Exception as e:
         print("running error: %s" % e)
-        CALL("echo \"n/a\" >> duration_shm.csv")
+        CALL(f"echo \"n/a\" >> {output_csv}.csv")
 
 
 
 
 def searchSpace_2d(dsl):
-    with open("duration_shm.csv", 'w') as csv:
+    with open(f"{output_csv}.csv", 'w') as csv:
         csv.write("SearchTime(s),gx,gy,bx,by,inx,iny,shm,duration(ns)\n")
     
     innerTiles = itertools.product([2**i for i in range(0, 4)], repeat=2)
@@ -190,7 +189,7 @@ def searchSpace_2d(dsl):
     for cnt, configVector in enumerate(configs):
         if cnt < maxTestCount:
             print(f"\n-------------------------- test {cnt} / {maxTestCount}")
-            with open("duration_shm.csv", 'a') as csv:
+            with open(f"{output_csv}.csv", 'a') as csv:
                 csv.write(f"{round(time.time() - start_time,2)},")
             run_2d(configVector, dsl, cnt)
             os.system("rm report*")
@@ -200,7 +199,7 @@ def run_3d(configVector, dsl, cnt):
     innerTile, gridSize, blockSize, useShm = configVector
 
     ## write paras
-    with open("duration_shm.csv", 'a') as csv:
+    with open(f"{output_csv}.csv", 'a') as csv:
         csv.write(f"{gridSize[0]},{gridSize[1]},{gridSize[2]},")
         csv.write(f"{blockSize[0]},{blockSize[1]},{blockSize[2]},")
         csv.write(f"{innerTile[0]},{innerTile[1]},{innerTile[2]},")
@@ -241,23 +240,23 @@ def run_3d(configVector, dsl, cnt):
         cmd = "clang -c -O3 -o tmp.o tmp.s"
         print(cmd)
         CALL(cmd)
-        cmd = f"nvcc -g -ccbin clang {dsl.split('_')[1]}_main.cpp tmp.o -L{llvmPath_lib} \
+        cmd = f"nvcc -g -ccbin clang {dsl.split('_')[1]}_main.cpp tmp.o  \
             -lmlir_cuda_runtime -lcudart -lcuda"
         print(cmd)
         CALL(cmd)
         
         kernel_name = dsl[:dsl.rindex("_")] + "_kernel" 
-        cmd = f"CUDA_VISIBLE_DEVICES=0 nsys nvprof ./a.out | grep {kernel_name} | awk '{{print $4}}' | sed 's/,//g' >> duration_shm.csv"
+        cmd = f"CUDA_VISIBLE_DEVICES=0 nsys nvprof ./a.out | grep {kernel_name} | awk '{{print $4}}' | sed 's/,//g' >> {output_csv}.csv"
         print(cmd)
         CALL(cmd)
     except KeyboardInterrupt as e:
         raise e
     except Exception as e:
         print("running error: %s" % e)
-        CALL("echo \"n/a\" >> duration_shm.csv")
+        CALL(f"echo \"n/a\" >> {output_csv}.csv")
 
 def searchSpace_3d(dsl):
-    with open("duration_shm.csv", 'w') as csv:
+    with open(f"{output_csv}.csv", 'w') as csv:
         csv.write("SearchTime(s),gx,gy,gz,bx,by,bz,inx,iny,inz,shm,duration(ns)\n")
     
     innerTiles = itertools.product([2**i for i in range(0, 3)], repeat=3)
@@ -279,7 +278,7 @@ def searchSpace_3d(dsl):
     for cnt, configVector in enumerate(configs):
         if cnt < maxTestCount:
             print(f"\n-------------------------- test {cnt} / {maxTestCount}")
-            with open("duration_shm.csv", 'a') as csv:
+            with open(f"{output_csv}.csv", 'a') as csv:
                 csv.write(f"{round(time.time() - start_time,2)},")
             run_3d(configVector, dsl, cnt)
             os.system("rm report*")
