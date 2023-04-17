@@ -4,13 +4,10 @@ import os
 import time
 
 # stencils_2d = ["2d9pt_star", "2d9pt_box", "2d121pt_box", "2d169pt_box"]
-stencils_2d = ["2d9pt_star", "2d9pt_box", "2d5pt_star", "2d25pt_box"]
+stencils_2d = ["2d9pt_star", "2d9pt_box", "2d5pt_star", "2d25pt_box", "2d13pt_star", "2d49pt_box"]
 # stencils_3d = ["3d7pt_star", "3d13pt_star", "3d25pt_star", "3d31pt_star" ]
-stencils_3d = ["3d7pt_star", "3d13pt_star", "3d27pt_box", "3d125pt_box" ]
+stencils_3d = ["3d7pt_star", "3d13pt_star", "3d27pt_box", "3d125pt_box", "3d19pt_star", "3d343pt_box"]
 #stencils_3d = ["3d25pt_star", "3d31pt_star"]
-
-stencils_2d = ["2d13pt_star", "2d49pt_box"]
-stencils_3d = ["3d19pt_star", "3d343pt_box"]
 
 stencils = stencils_3d + stencils_2d
 

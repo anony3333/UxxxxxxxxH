@@ -32,7 +32,6 @@ cmake --build . --target install
 ### Build UHStencil project
 
 ```bash
-git clone https://github.com/buaa-hipo/UHStencil.git
 cd UHStencil
 export LLVM_INSTALL=<path_to_llvm_install>
 export LLVM_BUILD=<path_to_llvm_build_directory>

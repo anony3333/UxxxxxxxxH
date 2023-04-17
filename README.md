@@ -1,6 +1,8 @@
 # Artifact
 
 ## Code Structure
+UHStencil: Source code of the UH stencil compiler.
+
 UH-GPU: UHStencil on GPU test cases, dsls describing stencil computation and program entry
 
 UH-SW: UHStencil on SW test cases, dsls describing stencil computation and program entry and drivers on SW platform.
@@ -19,9 +21,13 @@ scripts/compare: Run MSC and openearth.
 
 scripts/figure_scripts: Drawing Script
 
+## How to install
+
+See UHStencil/README.md.
+
 
 ## UHStencil on GPU
-1. Run test_default.py. It will run fixed tests for each case. The result will in `${casename}_specific.csv`
+1. Run test_default.py. It will get into `${casename}` folder and run fixed tests for each case. The result will in `${casename}_specific.csv`
 
 2. Run test_all.py. It will automaticly generate GPU side code and run the code. The result will be in `${casename}.csv`
 
@@ -52,7 +58,16 @@ Connect Sunway and combine the kernel code with the main function stencil_ 3d7pt
 
 4. Run get_all_cases.py to collect all results in the directory and you can find the best result.
 
-## Reproduce Our Result
-Run draw_ablation.py to draw our ablation test figure.
+## Compare UHStencil with openearth compiler
 
-Collect all expriment result and write them in data.xlsx. Then run performance_merge.py to draw Figure x.
+```sh
+cp scripts_for_compare/openearth/* compare/openearth -r
+cd compare/openearth 
+python3 test.py
+
+```
+
+## Reproduce Our Result
+Run draw_ablation.py to draw our ablation test figure(Figure 10).
+
+Collect all expriment result and write them in data.xlsx. Then run performance_merge.py to draw Figure 9.
